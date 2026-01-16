@@ -1,0 +1,22 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* This file is for your main application CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&family=Libre+Baskerville:wght@700&family=M+PLUS+Rounded+1c&family=Montserrat:ital@1&family=Open+Sans:ital@1&family=Poppins:wght@300;500;700&family=Questrial&family=Roboto&display=swap');
+
+.poppins-light {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+.poppins-regular {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.poppins-bold {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}

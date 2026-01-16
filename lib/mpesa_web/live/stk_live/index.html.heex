@@ -1,0 +1,19 @@
+<div class="text-xl poppins-regular">
+  Hello use this page to test Mpesa Stk(Sim tool kit) push
+  <div class="mt-10">
+    <.simple_form for={@form} id="event-form" phx-change="validate" phx-submit="pay">
+      <.input
+        field={@form[:Phone_number]}
+        type="text"
+        label="Phone Number"
+        placeholder="eg. 254712345678"
+      />
+
+      <.input field={@form[:amount]} type="number" label="Amount" />
+
+      <:actions>
+        <.button phx-disable-with="paying...">Pay</.button>
+      </:actions>
+    </.simple_form>
+  </div>
+</div>
