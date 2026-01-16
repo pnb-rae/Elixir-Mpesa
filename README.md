@@ -1,41 +1,51 @@
-Mpesa
+# Mpesa
 
-Getting Started
+A Phoenix-based Elixir application for managing M-Pesa payments.
 
-To start the Phoenix server, follow these steps:
+## Table of Contents
 
-Install and set up the project dependencies:
+- [Getting Started](#getting-started)
+- [Production Deployment](#production-deployment)
+- [Resources](#resources)
 
+## Getting Started
+
+### Prerequisites
+
+Ensure you have Elixir and Phoenix installed on your system.
+
+### Installation
+
+1. **Install project dependencies:**
+
+```bash
 mix setup
+```
 
+2. **Start the development server:**
 
-Start the Phoenix endpoint:
-
+```bash
 mix phx.server
+```
 
+Alternatively, to run it inside IEx (interactive Elixir shell):
 
-or run it inside IEx:
-
+```bash
 iex -S mix phx.server
+```
 
+3. **Access the application:**
 
-Once the server is running, open your browser and visit:
-http://localhost:4000
+Open your browser and navigate to [http://localhost:4000](http://localhost:4000)
 
-Production Deployment
+## Production Deployment
 
-Planning to run the application in production?
-Refer to the official Phoenix deployment guides for detailed instructions:
-https://hexdocs.pm/phoenix/deployment.html
+To prepare your application for production, refer to the [official Phoenix deployment guides](https://hexdocs.pm/phoenix/deployment.html) for comprehensive instructions and best practices.
 
-Learn More
+## Resources
 
-Official Website: https://www.phoenixframework.org/
-
-Guides: https://hexdocs.pm/phoenix/overview.html
-
-Documentation: https://hexdocs.pm/phoenix
-
-Community Forum: https://elixirforum.com/c/phoenix-forum
-
-Source Code: https://github.com/phoenixframework/phoenix
+- **Official Website:** [Phoenix Framework](https://www.phoenixframework.org/)
+- **Guides:** [Phoenix Overview](https://hexdocs.pm/phoenix/overview.html)
+- **Documentation:** [Phoenix Docs](https://hexdocs.pm/phoenix)
+- **Community Forum:** [Elixir Forum](https://elixirforum.com/c/phoenix-forum)
+- **Source Code:** [Phoenix Repository](https://github.com/phoenixframework/phoenix)
